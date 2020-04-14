@@ -18,7 +18,6 @@ const CommentSection = props => {
       
       {/* map through the comments data and return the Comment component */}
       {comments.map((comment,index)=>{
-        console.log(comment)
       
      return <Comment comment={comment}  key={index}/>
       
